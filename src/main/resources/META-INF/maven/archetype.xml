@@ -19,4 +19,4 @@
     <testResources>
         <resource encoding="UTF-8">src/resources/logback.xml</resource>
     </testResources>
-</archetype-descriptor>
+</archetype>
