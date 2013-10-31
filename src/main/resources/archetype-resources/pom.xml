@@ -15,7 +15,7 @@
         <slf4j.version>RELEASE</slf4j.version>
         <junit.version>4.11</junit.version>
         <h2.version>RELEASE</h2.version>
-        <jetty.version>RELEASE</jetty.version>
+        <jetty.version>8.1.13.v20130916</jetty.version>
     </properties>
 
 
@@ -106,7 +106,7 @@
             </plugin>
             -->
             <plugin>
-                <groupId>org.mortbay.jetty</groupId>
+                <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${jetty.version}</version>
                 <configuration>
